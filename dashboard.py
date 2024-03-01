@@ -20,7 +20,7 @@ max_date = all_df["dteday"].max()
  
 with st.sidebar:
     st.header('Sepeda analisis:sparkles:')
-    st.image("bike.jpg")
+    st.image("ikon.jpg")
     
     # Mengambil start_date & end_date dari date_input
     start_date, end_date = st.date_input(
@@ -28,8 +28,8 @@ with st.sidebar:
         max_value=max_date, value=[min_date, max_date]
     )
 
-st.header('Dicoding Collection Dashboard :sparkles:')
-st.subheader('Q1: Bagiamana pengaruh cuaca terhadap jumlah sewa harian?')
+st.header('Analisis Data Sepeda sparkles:')
+st.subheader('Q1: Bagiamana pengaruh cuaca terhadap customer Registered ?')
 weathersit_info="""
 1: Clear, Few clouds, Partly cloudy, Partly cloudy |
 2: Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist |
